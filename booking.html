@@ -1,4 +1,124 @@
-<h1>
-  booking
-</h1>
-<a href="booking.html" > booking </a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking | LensCraft Photography</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-white">
+
+  <!-- Navbar -->
+  <nav class="bg-black border-b border-zinc-800">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold tracking-widest">
+        Lens<span class="text-yellow-400">Craft</span>
+      </a>
+
+      <div class="space-x-8">
+        <a href="index.html" class="hover:text-yellow-400">Home</a>
+        <a href="gallery.html" class="hover:text-yellow-400">Gallery</a>
+        <a href="booking.html" class="text-yellow-400">Booking</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Booking Section -->
+  <section class="min-h-screen py-20 px-6">
+
+    <div class="max-w-5xl mx-auto">
+
+      <div class="text-center mb-12">
+        <p class="text-yellow-400 uppercase tracking-[5px]">
+          Let's Create Memories
+        </p>
+
+        <h1 class="text-5xl font-bold mt-4">
+          Book Your <span class="text-yellow-400">Photoshoot</span>
+        </h1>
+
+        <p class="text-gray-400 mt-5">
+          Fill out the form and we'll get in touch with you.
+        </p>
+      </div>
+
+      <div class="bg-zinc-900 rounded-3xl p-8 md:p-12 shadow-2xl">
+
+        <form class="grid md:grid-cols-2 gap-6">
+
+          <div>
+            <label class="block mb-2 text-gray-300">Full Name</label>
+            <input type="text"
+              placeholder="Enter your name"
+              class="w-full bg-black border border-zinc-700 rounded-lg px-4 py-3 outline-none focus:border-yellow-400">
+          </div>
+
+          <div>
+            <label class="block mb-2 text-gray-300">Email</label>
+            <input type="email"
+              placeholder="Enter your email"
+              class="w-full bg-black border border-zinc-700 rounded-lg px-4 py-3 outline-none focus:border-yellow-400">
+          </div>
+
+          <div>
+            <label class="block mb-2 text-gray-300">Phone</label>
+            <input type="tel"
+              placeholder="Enter phone number"
+              class="w-full bg-black border border-zinc-700 rounded-lg px-4 py-3 outline-none focus:border-yellow-400">
+          </div>
+
+          <div>
+            <label class="block mb-2 text-gray-300">Photography Type</label>
+
+            <select class="w-full bg-black border border-zinc-700 rounded-lg px-4 py-3 outline-none focus:border-yellow-400">
+              <option>Wedding Photography</option>
+              <option>Pre-Wedding Photography</option>
+              <option>Portrait Photography</option>
+              <option>Birthday Photography</option>
+              <option>Event Photography</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block mb-2 text-gray-300">Date</label>
+            <input type="date"
+              class="w-full bg-black border border-zinc-700 rounded-lg px-4 py-3 outline-none focus:border-yellow-400">
+          </div>
+
+          <div>
+            <label class="block mb-2 text-gray-300">Location</label>
+            <input type="text"
+              placeholder="Photoshoot location"
+              class="w-full bg-black border border-zinc-700 rounded-lg px-4 py-3 outline-none focus:border-yellow-400">
+          </div>
+
+          <div class="md:col-span-2">
+            <label class="block mb-2 text-gray-300">Message</label>
+
+            <textarea rows="5"
+              placeholder="Tell us about your photography requirements..."
+              class="w-full bg-black border border-zinc-700 rounded-lg px-4 py-3 outline-none focus:border-yellow-400"></textarea>
+          </div>
+
+          <div class="md:col-span-2 text-center">
+
+            <button type="submit"
+              class="bg-yellow-400 text-black px-10 py-3 rounded-full font-bold hover:bg-yellow-300 transition">
+              Submit Booking
+            </button>
+
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-zinc-800 py-8 text-center text-gray-500">
+    © 2026 LensCraft Photography
+  </footer>
+
+</body>
+</html>
