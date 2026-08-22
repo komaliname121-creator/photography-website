@@ -1,5 +1,144 @@
-<h1>
-  index.html
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LensCraft Photography</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-<a href="index.html"> HOME </a>
+<body class="bg-black text-white">
+
+  <!-- Navbar -->
+  <nav class="fixed w-full z-50 bg-black/80 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold tracking-widest">
+        Lens<span class="text-yellow-400">Craft</span>
+      </a>
+
+      <div class="space-x-8 hidden md:block">
+        <a href="index.html" class="text-yellow-400">Home</a>
+        <a href="gallery.html" class="hover:text-yellow-400 transition">Gallery</a>
+        <a href="booking.html" class="hover:text-yellow-400 transition">Booking</a>
+      </div>
+
+      <a href="booking.html"
+         class="bg-yellow-400 text-black px-5 py-2 rounded-full font-semibold hover:bg-yellow-300">
+        Book Now
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="min-h-screen flex items-center justify-center bg-cover bg-center"
+    style="background-image: linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.7)), url('https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=2000&q=80');">
+
+    <div class="text-center px-6">
+      <p class="uppercase tracking-[6px] text-yellow-400 mb-5">
+        Professional Photography
+      </p>
+
+      <h1 class="text-5xl md:text-7xl font-bold mb-6">
+        Capturing <span class="text-yellow-400">Moments</span>
+        <br>That Last Forever
+      </h1>
+
+      <p class="max-w-2xl mx-auto text-gray-300 text-lg mb-8">
+        We capture beautiful emotions, unforgettable moments and
+        stories through the art of photography.
+      </p>
+
+      <div class="flex justify-center gap-4">
+        <a href="gallery.html"
+          class="bg-yellow-400 text-black px-8 py-3 rounded-full font-bold hover:bg-yellow-300">
+          View Gallery
+        </a>
+
+        <a href="booking.html"
+          class="border border-white px-8 py-3 rounded-full font-bold hover:bg-white hover:text-black">
+          Book a Shoot
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="py-24 px-6 bg-zinc-950">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+      <img
+        src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?auto=format&fit=crop&w=1000&q=80"
+        class="rounded-2xl shadow-2xl"
+        alt="Photographer">
+
+      <div>
+        <p class="text-yellow-400 uppercase tracking-widest mb-3">
+          About Us
+        </p>
+
+        <h2 class="text-4xl font-bold mb-6">
+          We Tell Stories Through Our Lens
+        </h2>
+
+        <p class="text-gray-400 leading-8 mb-6">
+          LensCraft Photography is dedicated to creating timeless
+          photographs filled with emotion, creativity and personality.
+          Every photograph tells a unique story.
+        </p>
+
+        <a href="gallery.html"
+          class="inline-block border border-yellow-400 text-yellow-400 px-6 py-3 rounded-full hover:bg-yellow-400 hover:text-black">
+          Explore Our Work
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="py-24 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+
+      <p class="text-yellow-400 uppercase tracking-widest">What We Do</p>
+
+      <h2 class="text-4xl font-bold mt-3 mb-12">
+        Our Photography Services
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-zinc-900 p-8 rounded-2xl hover:-translate-y-2 transition">
+          <div class="text-5xl mb-5">💍</div>
+          <h3 class="text-2xl font-bold mb-4">Wedding</h3>
+          <p class="text-gray-400">
+            Beautiful wedding moments captured with love and creativity.
+          </p>
+        </div>
+
+        <div class="bg-zinc-900 p-8 rounded-2xl hover:-translate-y-2 transition">
+          <div class="text-5xl mb-5">❤️</div>
+          <h3 class="text-2xl font-bold mb-4">Pre-Wedding</h3>
+          <p class="text-gray-400">
+            Romantic pre-wedding sessions designed around your story.
+          </p>
+        </div>
+
+        <div class="bg-zinc-900 p-8 rounded-2xl hover:-translate-y-2 transition">
+          <div class="text-5xl mb-5">📸</div>
+          <h3 class="text-2xl font-bold mb-4">Portraits</h3>
+          <p class="text-gray-400">
+            Professional portraits that show your personality.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-zinc-800 py-8 text-center text-gray-500">
+    <p>© 2026 LensCraft Photography. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
